@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'comfor_regul';
+    src: url('font/comfortaa_regular.woff2') format('woff2'),
+    url('font/comfortaa_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comfor_bold';
+    src: url('font/comfortaa_bold.woff2') format('woff2'),
+    url('font/comfortaa_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #120214;
+}
+
+figure {
+    font-family: 'comfor_regul', arial, sans-serif;
+    font-size: 1.5rem;
+    color:#f2f2f2;
+}
+ul{
+    font-family: 'comfor_regul', arial, sans-serif;
+    font-size: 1.5rem;
+    color:#f2f2f2;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+
+main img {
+    width: 11rem;
+    height: 15rem;
+}
+
+header img{
+    width: 15rem;
+    height: 3rem;
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
